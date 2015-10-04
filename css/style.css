@@ -1,0 +1,138 @@
+/*.strike {
+    text-decoration: line-through;
+}*/
+
+body {
+    background-color: #080808;
+}
+
+.strike{
+    position: relative;
+}
+.strike::after {
+    border-bottom: 3px solid black;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 40%;
+}
+
+button {
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+}
+
+#save_btn {
+    background: rgba(255,145,77,1);
+    border: 2px outset;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    box-sizing: border-box;
+}
+
+#logo img {
+    display: inline-block;
+    position: relative;
+    align-content: center;
+    height: 64px;
+    width: 64px;
+    left: 0px;
+    margin-right: 10px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    box-shadow: 0px 2px 2px 0px #d58512;
+}
+
+.navbar-header {
+    display: block;
+    position: relative;
+    -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50px;
+    height: 100px;
+    text-align: center;
+}
+
+.navbar, h3 {
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0px 2px 2px 0px #d58512;
+}
+
+.navbar, .jumbotron, .form-group input, .form-group button, .form-group a {
+    box-shadow: 0px 2px 2px 0px #d58512;
+}
+
+.navbar-brand a {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.navbar-brand {
+    position: relative;
+    top: 2.5px;
+    height: 90px;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 2px 2px 0px #d58512;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+}
+h2 {
+    text-align: center;
+    color: #d58512;
+    text-shadow: 0px 2px 2px 0px #000000;
+
+}
+
+h3 p {
+    position: relative;
+    top: -5px;
+    text-align: center;
+    line-height: 2em;
+    font-size: .8em;
+    font-weight: 200;
+    color: #ffffff;
+    text-shadow: 0px 2px 2px 0px #d58512;
+
+}
+
+strong {
+    font-weight: bolder;
+    font-size: larger;
+    color: #000000;
+}
+
+#app_foot {
+    border-top: 1px solid #ffffff;
+}
+
+#img_foot{
+    position: relative;
+    -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50px;
+}
+
+.btn-success, .btn-danger {
+    background-color: #080808;
+}
+
+#list_g {
+    position: relative;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-header {
+        display: block;
+        position: relative;
+        float: left;
+        left: 55%
+    }
+}

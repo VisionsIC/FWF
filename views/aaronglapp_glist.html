@@ -1,0 +1,10 @@
+<div class="col-xs-12">
+    <a href="#/aaronglapp_add" class="btn btn-primary btn-lg btn-block" id="save_btn">
+        <span class="glyphicon glyphicon-plus"></span>
+        Add New Grocery Item</a>
+    <ul class="list-group" id="list_g">
+        <li ng-repeat="item in groceryItems | orderBy: '-date'" class="list-group-item text-center clearfix">
+            <tb-grocery-item></tb-grocery-item>
+        </li>
+    </ul>
+</div>
